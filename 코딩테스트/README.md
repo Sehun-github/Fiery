@@ -6,3 +6,4 @@
  - 메뉴-코딩테스트 연습 -> 상태:안푼문제, 난이도 본인 실력, 언어: Python3
 ## 2. Baekjoon
  - https://www.acmicpc.net/problem/tags (링크 누르기X, Copy & Paste로 이동)
+ - 각종 알고리즘 풀기 (그리드 -> 탐색 -> Dynamic Programming)
