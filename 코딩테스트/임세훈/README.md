@@ -1,2 +1,4 @@
+# 코딩테스트
 
-## List append 보다 set add 하는게 훨씬더 속도가 빠르다!!
+> ### List append 보다 set add 하는게 훨씬더 속도가 빠르다!!
+> ### 문자열 짝 맞추는거는 - Stack으로 해결
