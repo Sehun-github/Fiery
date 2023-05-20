@@ -14,3 +14,12 @@
 큐: 선입선출
 LRU 알고리즘: 가장 오랫동안 참조되지 않은 페이지를 교체
 ```
+#### 완전탐색 알고리즘
+```
+완전 탐색 알고리즘 (순열 이용)
+from itertools import permutations
+
+for i in permutations(list,len(list)):
+  print(i)
+```
+
