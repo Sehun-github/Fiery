@@ -4,7 +4,7 @@
 > #### List append 보다 set add 하는게 훨씬더 속도가 빠르다!! -- 대신 set은 원소 하나당 하나씩밖에 안들어감 주의
 > #### 문자열 짝 맞추는거는 - Stack으로 해결
 > #### Count함수도 시간이 오래 걸려 될수 있는데로 사용 안하는게 좋다.
-> #### 몫구하기: //
+> #### 몫구하기: //, str1의 앞글자가 str2와 같은지 확인: str1.startswith("str2")
 > #### list.pop(4) -> 리스트의 4번째 원소 없애기
 > #### sorted(dict.items(), key=lambda x:x[1])     # value 값을 기준으로 오름차순 정렬
 
