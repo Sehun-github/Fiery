@@ -22,4 +22,26 @@ from itertools import permutations
 for i in permutations(list,len(list)):
   print(i)
 ```
-
+#### 10진수 -> n진수로 바꾸기
+```
+# n값을 k진수로 변환
+    value = ""
+    while n:
+        value += str(n % k)
+        n = n // k
+    
+    value = value[::-1]
+```
+#### 소수 개수 구하기 - (루트 N)+1 까지만 해도 된다.
+```
+ # 소수 구하기
+    answer=0
+    for i in num_list:
+        cnt=0
+        for j in range(2,int(i**0.5)+1):
+            if i% j == 0:
+                cnt +=1
+                break
+        if cnt == 0:
+            answer +=1
+```
