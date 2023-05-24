@@ -7,6 +7,7 @@
 > #### 몫구하기: //, str1의 앞글자가 str2와 같은지 확인: str1.startswith("str2")
 > #### list.pop(4) -> 리스트의 4번째 원소 없애기
 > #### sorted(dict.items(), key=lambda x:x[1])     # value 값을 기준으로 오름차순 정렬
+> #### 시간줄이기 - from collections import deque # deque사용
 
 
 ```
