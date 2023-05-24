@@ -7,7 +7,7 @@
 > #### 몫구하기: //, str1의 앞글자가 str2와 같은지 확인: str1.startswith("str2")
 > #### list.pop(4) -> 리스트의 4번째 원소 없애기
 > #### sorted(dict.items(), key=lambda x:x[1])     # value 값을 기준으로 오름차순 정렬
-> #### 시간줄이기 - from collections import deque # deque사용
+> #### 시간줄이기 - from collections import deque # deque사용, pop(0)와 같은 메서드를 수행할 때 리스트라면 O(N) 연산을 수행하지만, deque는 O(1) 연산을 수행하기 때문이다.
 
 
 ```
