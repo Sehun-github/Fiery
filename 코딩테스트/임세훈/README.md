@@ -45,3 +45,10 @@ for i in permutations(list,len(list)):
         if cnt == 0:
             answer +=1
 ```
+#### 힙정렬 - import heapq
+```
+heappush(list,"data") # 리스트에 데이터 추가 및 자동 오름차순 정렬
+heappop("data") # 첫번째 데이터 가져오고 삭제
+
+※ 내림차순은 할때는 -를 붙여서 -1 곱하기
+```
