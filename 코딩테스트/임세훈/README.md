@@ -9,7 +9,7 @@
 > #### sorted(dict.items(), key=lambda x:x[1])     # value 값을 기준으로 오름차순 정렬
 > #### 정렬하기 - answer.sort(key=lambda x:(x[0].lower(), int(x[1]))) # 첫번째는 이름순, 두번째는 숫자순서로 정렬
 > #### 시간줄이기 - from collections import deque # deque사용, pop(0)와 같은 메서드를 수행할 때 리스트라면 O(N) 연산을 수행하지만, deque는 O(1) 연산을 수행하기 때문이다.
-
+> #### 리스트 할당: [[0]*n for _ in range(m)]
 
 ```
 스택: 마지막에 들어온것을 뺀다
