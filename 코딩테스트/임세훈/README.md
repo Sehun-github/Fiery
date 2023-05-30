@@ -62,5 +62,6 @@ heappop("data") # 첫번째 데이터 가져오고 삭제
 년도 - YEAR("열이름")
 월 - MONTH("열이름")
 특정한 값 우선 정렬 - ORDERY BY FIELD(열이름, "값1", "값2") 
+NULL 값 치환 - IFNULL('열 이름', 'NULL에 치환할 값')
 ```
 
