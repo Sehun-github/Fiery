@@ -63,5 +63,6 @@ heappop("data") # 첫번째 데이터 가져오고 삭제
 월 - MONTH("열이름")
 특정한 값 우선 정렬 - ORDERY BY FIELD(열이름, "값1", "값2") 
 NULL 값 치환 - IFNULL('열 이름', 'NULL에 치환할 값')
+날짜 포맷 수정 - Date_Format('열 이름', '%Y-%m-%d') -> '2023-06-01'
 ```
 
