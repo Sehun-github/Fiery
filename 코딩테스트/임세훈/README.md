@@ -66,4 +66,10 @@ NULL 값 치환 - IFNULL('열 이름', 'NULL에 치환할 값')
 날짜 포맷 수정 - Date_Format('열 이름', '%Y-%m-%d') -> '2023-06-01'
 시간 차이 함수 - DATEDIFF('END DATE', 'START DATE')+1 // * +1을 해줘야 차이가 나온다.
 ```
-
+```
+CASE
+WHEN 조건 THEN ‘반환 값’
+WHEN 조건 THEN ‘반환 값’
+ELSE ‘WHEN 조건에 해당 안되는 경우 반환 값’
+END
+```
