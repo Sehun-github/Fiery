@@ -73,3 +73,8 @@ WHEN 조건 THEN ‘반환 값’
 ELSE ‘WHEN 조건에 해당 안되는 경우 반환 값’
 END
 ```
+```
+LEFT(문자, 가져올 갯수)
+MID(문자, 시작 위치, 가져올 갯수), SELECT SUBSTRING('abcdefg', 2, 4)
+RIGHT(문자, 가져올 갯수), 
+```
