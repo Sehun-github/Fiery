@@ -79,3 +79,7 @@ LEFT(문자, 가져올 갯수)
 MID(문자, 시작 위치, 가져올 갯수), SELECT SUBSTRING('abcdefg', 2, 4)
 RIGHT(문자, 가져올 갯수), 
 ```
+```
+문자 합치기: CONCAT("문자1","문자2")
+ex) CONCAT(LEFT(U.TLNO,3),"-", MID(U.TLNO,4,4),"-", RIGHT(U.TLNO,4)) // 전화번호
+```
